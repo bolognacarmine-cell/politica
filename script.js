@@ -8,7 +8,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "3.webp",
       logoAlt: "Simbolo Partito Democratico",
-      documentUrl: "./cvcgpd/index.html",
+      documentUrl: "https://drive.google.com/drive/folders/1UqIC2s5NX3K2NerOgcNaMOwNnl5AQpdU?usp=drive_link",
       candidates: [
         { name: "Arotta Antonietta" },
         { name: "Ascione Immacolata" },
@@ -42,7 +42,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "4.webp",
       logoAlt: "Simbolo Movimento 5 Stelle",
-      documentUrl: "./cvcgm5s/index.html",
+      documentUrl: "https://portale.movimento5stelle.eu/elezioni-trasparenti/amministrative-2026-39/campania-15/marcianise-5843",
       candidates: [
         { name: "Cibelli Rosalba" },
         { name: "Nunziante Antonio" },
@@ -76,7 +76,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "9.webp",
       logoAlt: "Simbolo Agire Liberi",
-      documentUrl: "./cvcgagireliberi/index.html",
+      documentUrl: "https://drive.google.com/drive/folders/1m_pQfP7VYF4Yz9f9bTT_BzJy_9XDeVgu?usp=drive_link",
       candidates: [
         { name: "Acconcia Vincenzo" },
         { name: "Amarando Laura" },
@@ -110,7 +110,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "8.webp",
       logoAlt: "Simbolo Avanti Marcianise",
-      documentUrl: "./cvcgavanti/",
+      documentUrl: "https://drive.google.com/drive/folders/1ScKhmsvqKv0TGC2THUSs3UugSa_M86l6?usp=drive_link",
       candidates: [
         { name: "Blanco Sergio" },
         { name: "Caldara Antonio" },
@@ -144,7 +144,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "7.webp",
       logoAlt: "Simbolo Vivila Marcianise",
-      documentUrl: "./cvcgvivila/index.html",
+      documentUrl: "https://drive.google.com/drive/folders/14Rq_7OjiILBULiUC3qHqG8DpHHFn3s2w?usp=drive_link",
       candidates: [
         { name: "Tartaglione Giuseppa" },
         { name: "Amoriello Maria Pia" },
@@ -179,7 +179,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "5.webp",
       logoAlt: "Simbolo Alleanza Verdi Sinistra",
-      documentUrl: "./cvcgavs/index.html",
+      documentUrl: "https://drive.google.com/drive/folders/11WfdY72HGxeRShNgUr0MFl0yZjdnTI2Z?usp=drive_link",
       candidates: [
         { name: "Giuseppe Madonna" },
         { name: "Flora Biondillo" },
@@ -207,7 +207,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "10.webp",
       logoAlt: "Simbolo Marcianise sul serio",
-      documentUrl: "./cvcgmarcianisesulserio/index.html",
+      documentUrl: "https://marcianisesulserio.my.canva.site/marcianisesulserio",
       candidates: [
         { name: "Antonio Francesco Aronesano" },
         { name: "Nicola Balbo" },
@@ -241,7 +241,7 @@ const siteData = {
       coalition: "Maria Luigia Iodice",
       logoSrc: "6.webp",
       logoAlt: "Simbolo A Testa Alta",
-      documentUrl: "./cvcgatestaalta/index.html",
+      documentUrl: "https://atestaalta.netlify.app/",
       candidates: [
         { name: "Giuseppe Moretta detto Pinuccio" },
         { name: "Alberto Abbate" },

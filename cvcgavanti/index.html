@@ -90,21 +90,80 @@
 
     <footer class="site-footer" role="contentinfo">
       <div class="container footer-inner">
-        <nav class="footer-nav" aria-label="Link legali">
-          <ul class="footer-links">
-            <li><a href="../#home">Home</a></li>
-            <li><a href="../#liste">Liste</a></li>
-            <li><a href="../#privacy-policy">Privacy Policy</a></li>
-            <li><a href="../#cookie-policy">Cookie Policy</a></li>
-          </ul>
-        </nav>
-        <p class="footer-text">Documentazione candidati pubblicata ai sensi della normativa vigente in materia di trasparenza elettorale</p>
-        <p class="footer-mini">© <span id="year"></span> – Elezioni Amministrative Marcianise 2026</p>
+        <div class="footer-top">
+          <section class="footer-brand" aria-label="Progetto">
+            <a class="footer-brand-link" href="../#home">
+              <img class="footer-logo" src="../2.webp" alt="Logo Marcianise 2026" width="44" height="44" decoding="async" />
+              <span class="footer-brand-text">
+                <span class="footer-brand-title">Marcianise 2026</span>
+                <span class="footer-brand-subtitle">Elezioni amministrative</span>
+              </span>
+            </a>
+          </section>
+
+          <nav class="footer-block footer-nav" aria-label="Link utili">
+            <h2 class="footer-title">Link utili</h2>
+            <ul class="footer-links">
+              <li><a href="../#home">Home</a></li>
+              <li><a href="../#liste">Liste</a></li>
+              <li><a href="../#privacy-policy">Privacy Policy</a></li>
+              <li><a href="../#cookie-policy">Cookie Policy</a></li>
+            </ul>
+          </nav>
+
+          <section class="footer-block" aria-label="Contatti">
+            <h2 class="footer-title">Contatti</h2>
+            <ul class="footer-contact-list">
+              <li>
+                <span class="footer-label">E-mail</span>
+                <a href="mailto:maria.luigia.iodice.sindaco@gmail.com">maria.luigia.iodice.sindaco@gmail.com</a>
+              </li>
+              <li>
+                <span class="footer-label">Telefono</span>
+                <a href="tel:+393511391723">+39 351 139 1723</a>
+              </li>
+            </ul>
+
+            <div class="footer-social-block" aria-label="Social">
+              <span class="footer-label">Social</span>
+              <div class="footer-social" role="list">
+                <a
+                  class="social-link"
+                  href="https://www.facebook.com/marialuigiaiodiceconsigliereregionale"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  role="listitem"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.2-1.5 1.6-1.5h1.6V4.9c-.8-.1-1.7-.2-2.6-.2-2.6 0-4.4 1.6-4.4 4.5V11H7v3h2.9v8h3.6z" />
+                  </svg>
+                </a>
+                <a
+                  class="social-link"
+                  href="https://www.instagram.com/marialuigiaiodice/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  role="listitem"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.75 6.25a1 1 0 1 1-1 1 1 1 0 0 1 1-1z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="footer-bottom" aria-label="Note">
+          <p class="footer-text">Documentazione candidati pubblicata ai sensi della normativa vigente in materia di trasparenza elettorale</p>
+          <p class="footer-mini" id="footerYear"></p>
+        </div>
       </div>
     </footer>
 
     <script>
-      document.getElementById("year").textContent = String(new Date().getFullYear())
+      document.getElementById("footerYear").textContent = `© ${new Date().getFullYear()} – Elezioni Amministrative Marcianise 2026`
     </script>
   </body>
 </html>
