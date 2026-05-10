@@ -186,7 +186,7 @@ const siteData = {
         { name: "Alessia Colamonici" },
         { name: "Orlando Costanzo" },
         { name: "Giuseppe Ferraro" },
-        { name: "Giuseppe Gaglione" },
+        { name: "Giuseppa Gaglione" },
         { name: "Giovanbattista Golino" },
         { name: "Franco Liguori" },
         { name: "Concetta Marino" },
