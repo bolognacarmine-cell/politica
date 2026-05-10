@@ -154,7 +154,7 @@ const siteData = {
         { name: "Di Maio Raffaele" },
         { name: "Farro Giovanna" },
         { name: "Ferraro Maddalena" },
-        { name: "Froncillo Elisa" },
+        { name: "Froncillo Elisa detta Lisa" },
         { name: "Gionti Pasquale" },
         { name: "Iodice Anna Giovanna" },
         { name: "Iuliano Francesco" },
