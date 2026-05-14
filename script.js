@@ -224,7 +224,6 @@ const siteData = {
         { name: "MEZZACAPO MARIA" },
         { name: "MUSONE ALESSANDRA MORENA" },
         { name: "NETTUNO MARIO" },
-        { name: "OVIDIO Sara" },
         { name: "PAOLELLA CARMEN VERONICA" },
         { name: "PETRELLESE MAURO detto MAURO" },
         { name: "PRATILLO GIOVANNI" },
